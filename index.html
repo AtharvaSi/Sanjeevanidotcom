@@ -358,16 +358,17 @@
 
         <h1 class="heading"> <span>contact</span> us </h1>
 
-        <form action="">
+        <form  action="connect.php" method="post"  id="contact-form">
+            
             <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
+                <input type="text" name="name" placeholder="name">
+                <input type="email" name="email" placeholder="email">
             </div>
             <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="subject">
+                <input type="number"  name="number" placeholder="number">
+                <input type="text" name="subject" placeholder="subject">
             </div>
-            <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+            <textarea name="message" placeholder="your message" id="" cols="30" rows="10"></textarea>
             <input type="submit" value="send message" class="btn">
         </form>
 
